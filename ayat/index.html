@@ -1,0 +1,68 @@
+ 
+<HTML>
+<HEAD>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>player</title>
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+		<link href="css/player-css.css" rel="stylesheet" media="all" />
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+<script>
+function myFunction() {
+    location.reload();
+}
+</script>
+
+</HEAD>
+<BODY topmargin=0 leftmargin=0>
+ 
+	 <!-- Start of first page -->
+
+
+	 <div data-role="page" id="foo">
+	 
+<div data-role="header"  data-theme='b' >
+ <a href="index.html"   class="ui-btn-left ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all">No text</a>
+ <a onclick='myFunction()' class="ui-btn-right ui-btn ui-icon-refresh ui-btn-icon-notext ui-corner-all">No text</a>
+ <h1>MUSIC</h1>
+ 
+</div><!-- /header -->
+ 
+ <div role="main" class="ui-content">
+  <a  data-theme="b" onclick='myFunction()' class=" ui-btn ui-shadow ui-btn-inline  ui-btn-icon-left ui-icon-refresh">Refresh Jika Data Error</a>
+  
+<ul data-role="listview" data-theme="a" class="ui-listview-outer" data-inset="true" data-filter="true" data-filter-placeholder="Search..."  >
+	<li data-role="collapsible" data-theme='a' data-iconpos="right" data-shadow="false" data-corners="false" >
+		<h2>KAMU JAHAT - GEISHA</h2>
+		<iframe src='01.html'  FRAMEBORDER="0" MARGINWIDTH="0" MARGINHEIGHT="0" SCROLLING="no" WIDTH="97%" HEIGHT="45"></iframe>
+
+	</li>
+	<li data-role="collapsible" data-theme='a' data-iconpos="right" data-shadow="false" data-corners="false" >
+		<h2>SETENGAH HATIKU TERTINGGAL - GEISHA</h2>
+		<iframe src='02.html'  FRAMEBORDER="0" MARGINWIDTH="0" MARGINHEIGHT="0" SCROLLING="no" WIDTH="97%" HEIGHT="45"></iframe>
+	</li>
+ 
+ </ul>
+ 
+ 
+ 
+ 
+ </div><!-- /page -->
+ 
+ 
+
+
+ 
+ 
+  
+ 
+ 
+
+
+
+ 
+
+ 
+</script>
+</BODY></HTML>
